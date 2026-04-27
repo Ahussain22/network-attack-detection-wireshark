@@ -55,7 +55,7 @@ ping google.com
 
 This represents:
 > Normal connectivity testing behaviour.
-
+![Wireshark](./images/wireshark1.png)
 ---
 
 ## 🧪 Step 3 — Filter Traffic
@@ -85,7 +85,7 @@ ping 1.1.1.1
 ping 192.168.1.1
 ping 192.168.1.2
 ```
-
+![CMD](./images/pingcmd.png)
 ---
 
 ## 🔍 Observation (Suspicious Pattern)
@@ -102,7 +102,7 @@ ping 192.168.1.2
 - Multiple different IP addresses targeted  
 - Sequential IP patterns (possible scanning)  
 - Unusual behaviour for a normal user system  
-
+![Wireshark](./images/wireshark.png)
 ---
 
 ## 🧠 Important Concept: Context Matters
